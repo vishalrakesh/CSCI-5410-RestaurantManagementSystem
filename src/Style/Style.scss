@@ -1,0 +1,73 @@
+$icon-color: #05c46b;
+$medium-font: 25px;
+$child-text-color: #757575;
+$small-font: 16px;
+$xl-font: 18px;
+
+body {
+    font-family: "Montserrat", sans-serif !important;
+}
+
+.heading-title-text-color {
+    color: #434f5c;
+}
+.icon-color {
+    color: $icon-color;
+}
+.font-size-25 {
+    font-size: $medium-font;
+}
+.mini-container {
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.child-text-color {
+    color: $child-text-color;
+}
+.font-size-16 {
+    font-size: $small-font;
+}
+.small-btn {
+    background: rgba(5, 196, 107, 0.1);
+    padding: 4px 10px;
+    border: 1px solid rgba(5, 196, 107, 0.1);
+    color: rgb(5, 196, 107);
+    border-radius: 8px;
+    font-size: 14px;
+}
+button:focus {
+    outline: none !important;
+}
+.font-size-18 {
+    font-size: $xl-font;
+}
+.form-control {
+    border: 1px solid #05c46b;
+    width: 100%;
+    height: calc(1.5em + 0.75rem + 2px);
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.form-control-1 {
+    border: 1px solid #05c46b;
+    width: 100%;
+    height: 140px;
+    padding: 0.375rem 0.75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
